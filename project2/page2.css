@@ -1,0 +1,96 @@
+
+
+#blur{
+    filter: blur(3px);
+}
+.body{
+    background-color: gray;
+}
+
+.task{
+    background-color:white ;border: 1px solid gray; padding-left: 200px;
+}
+
+.list{
+       color:aqua ;
+}
+
+#add{ position: relative;
+    left:300px;
+    top: 80px
+}
+
+.addnewtask{
+        color:black ;text-decoration: none; 
+    }
+
+#container{
+    display: flex;
+
+justify-content:space-evenly;
+}
+.box{height: 250px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid gray;
+
+}
+#container2{
+    display: flex;
+   
+justify-content: space-evenly;
+}
+
+.head1{
+    color:blue;
+}
+
+.head2{
+    text-decoration:line-through ;
+}
+
+
+.card{ background-color
+: white;
+    border: 3PX solid gray;
+
+    color:black;
+    width: 300px;
+    height: 150px;
+    
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 260px;
+    left: 500px;
+   
+}
+
+.newtask{
+    margin-left:10px ;
+
+}
+
+.additem{margin-left:180px ;
+  background-color:skyblue;  
+}
+
+
+@media screen and (min-width:375px) and (max-width:667px){
+
+    .card{
+        position: absolute;
+        left:20px
+    }
+}
+@media screen and (min-width:820px) and ( max-width:1180px) {
+
+    .card{width: 300px;
+        height:250px;
+        font-size: 30px;
+        position: absolute;
+        left:250px
+    }
+    
+
+}

@@ -1,0 +1,146 @@
+.box{ background-color: white;
+    border: 3PX solid gray;
+
+    color:black;
+    width: 300px;
+    height: 150px;
+    
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 260px;
+    left: 500px;
+}
+.task{
+    background-color:white ;border: 1px solid gray;
+    text-align: center;
+}
+.list
+{
+    color:aqua ;
+}
+#addnewtask{ position: absolute;
+             left: 400px;
+    
+    }
+
+    #circle{
+position: relative;
+left:500px
+
+    }
+.addnewtask{
+    color:black ;text-decoration: none;
+}
+
+.a{
+    text-decoration:none ;
+    position: relative;
+    left:500px
+}
+.trip{
+    color:blue ;text-align: center;
+}
+
+.church{
+    text-decoration:line-through ;
+}
+@media screen and (min-width:375px) and ( max-width:667px) 
+{.box{
+    position: absolute;
+    left:60px;
+    top:400px;
+    height:200px;
+    width:250px;
+    font-size: 20px;
+}
+
+.task{height: 100px;
+    font-size: 20px;
+    position: relative;
+    
+}
+.a{
+    position: relative;
+    left: -300px;
+    top:20px;
+    font-size: 20px;
+}
+
+#addnewtask{
+    position: relative;
+   right: 400px;
+}
+#circle{
+    position: relative;
+    top:20px;
+    left:-300px;
+    font-size: 20px;
+}
+#back{
+    position: relative;
+    left:-400px ;
+    top:20px;
+    font-size: 20px;
+}
+.back{position:relative;
+    left:-400px;
+    top:20px;
+    font-size: 20px;
+}
+
+}
+
+@media screen and (min-width:820px) and ( max-width:1180px) {
+
+    .box{
+        position: absolute;
+        left:250px;
+        top:550px;
+        height:300px;
+        width:250px;
+        font-size: 30px;
+    }
+    .task{height: 200px;
+        font-size: 40px;
+        position: relative;
+        
+    }
+#addnewtask{
+    position: absolute;
+    
+    padding-left: 300px;
+}
+    
+    .a{
+        position: relative;
+        left: -400px;
+        top:20px;
+        font-size: 30px;
+    }
+
+    #addnewtask{
+        position: relative;
+       right: 400px;
+    }
+    #circle{
+        position: relative;
+        top:20px;
+        left:-400px;
+        font-size: 40px;
+    }
+    #back{
+        position: relative;
+        right:580px ;
+        top:20px;
+        font-size: 40px;
+    }
+    .back{position:relative;
+        right:580px;
+        top:20px;
+        font-size: 30px;
+    }
+}
+
+
+

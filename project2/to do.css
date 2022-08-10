@@ -1,0 +1,134 @@
+
+
+.body{ position: relative;
+    background-color: gray;
+}
+
+.task{
+    background-color:white ;border: 1px solid gray; padding-left: 0px;
+    text-align: center;
+}
+
+.list{
+       color:aqua ;
+}
+
+.add{ position: relative;
+    left:1200px;
+    font-size: 0px;
+    top: 30px
+}
+
+.addnewtask{
+        color:black ;text-decoration: none; 
+    }
+
+#container{
+    display: flex;
+   flex-wrap: wrap;
+     height: 50vh;
+     width: 100vw;
+     position: relative;
+     left: 0px;
+     top:50px;
+     justify-content: space-evenly;
+}
+.box{height: 200px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+margin: 20px;
+
+
+}
+
+
+.head1{
+    color:blue;
+}
+
+.head2{
+    text-decoration:line-through ;
+}
+
+
+@media screen and( min-width:376px) and ( max-width:686px)
+{
+  
+   .box{
+    position: relative;
+       
+        height:200px;
+       
+        top:5vh;
+        font-size:16px;
+        left:4px;
+        
+    }
+    
+   .task{height: 60px;
+    text-align: center;
+    padding-left:100px ;
+   }
+
+   
+
+
+   
+   
+    
+}
+
+#circle{
+    font-size: 30px;
+    position: relative;
+    left:-1100px;
+
+    top:10px
+}
+
+
+.addnewtask{
+    color:black ; 
+position: relative;
+left: -1100px;
+
+}#a{
+    position: relative;
+    font-size: 30px;
+}
+
+
+
+
+
+@media screen and (min-width:820px) and ( max-width:1180px) {
+
+    .box{
+    
+       position: relative ;
+        height:250px;
+        
+        top:100px;
+        font-size:16px;
+        
+        
+    }
+    .task{height: 100px;
+        text-align: center;
+        font-size: 30px;
+       }
+       
+
+    .add{ font-size:30px;
+        
+        position: relative;
+     
+        
+        top: 60px
+    
+}
+
+
+
+}
